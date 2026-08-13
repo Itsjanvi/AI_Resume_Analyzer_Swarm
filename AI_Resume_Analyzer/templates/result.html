@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Resume Analysis</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f4f7fb;
+}
+
+.container{
+
+    width:800px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 0px 15px gray;
+
+}
+
+
+h1{
+
+    text-align:center;
+    color:#2563eb;
+
+}
+
+
+.box{
+
+    background:#f1f5f9;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+
+}
+
+
+h2{
+
+color:#1d4ed8;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>
+🤖 Swarm AI Resume Analysis Report
+</h1>
+
+
+<div class="box">
+
+<h2>ATS Analysis</h2>
+
+<p>
+{{ results["ats"] }}
+</p>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Grammar Analysis</h2>
+
+<p>
+{{ results["grammar"] }}
+</p>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Skill Gap Analysis</h2>
+
+<p>
+{{ results["skills"] }}
+</p>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Career Recommendations</h2>
+
+<p>
+{{ results["career"] }}
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</body>
+
+</html>

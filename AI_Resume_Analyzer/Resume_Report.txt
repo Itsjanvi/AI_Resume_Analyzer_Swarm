@@ -1,0 +1,70 @@
+======================================================================
+        SWARM AI RESUME ANALYZER REPORT
+======================================================================
+
+1. ATS ANALYSIS
+----------------------------------------------------------------------
+
+==========================
+ATS ANALYSIS
+==========================
+
+ATS Score: 44/100
+
+Matched Skills:
+git, python, skills, sql
+
+Missing Skills:
+aws, communication, docker, learning, machine
+
+
+2. GRAMMAR ANALYSIS
+----------------------------------------------------------------------
+• Consider adding a Career Objective section.
+
+3. SKILL GAP ANALYSIS
+----------------------------------------------------------------------
+Missing Skills:
+
+- aws
+- communication
+- docker
+- learning
+- machine
+
+4. CAREER RECOMMENDATIONS
+----------------------------------------------------------------------
+
+==========================
+CAREER RECOMMENDATIONS
+==========================
+
+Recommended Skills
+• Docker
+• Git & GitHub
+• SQL
+• AWS
+• Machine Learning
+• Data Structures & Algorithms
+
+Recommended Certifications
+• AWS Cloud Practitioner
+• Google Data Analytics
+• Microsoft Azure Fundamentals
+
+Suggested Projects
+• AI Resume Analyzer
+• AI Research Assistant
+• Network Intrusion Detection System
+• Electricity Consumption Prediction
+
+General Advice
+• Keep your resume to one page.
+• Quantify achievements wherever possible.
+• Add GitHub and LinkedIn profile links.
+• Include internships and certifications.
+
+
+======================================================================
+End of Report
+======================================================================
