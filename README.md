@@ -1,56 +1,131 @@
-# 📄 AI Resume Analyzer (Swarm Intelligence)
+# 📄 AI Resume Analyzer
 
-An advanced multi-agent collaborative web application designed to parse, evaluate, score, and optimize candidate resumes using Swarm AI paradigms and advanced natural language processing.
+An AI-powered web application that analyzes resumes and provides useful insights, including resume evaluation, ATS-focused feedback, skills analysis, and suggestions for improvement.
 
----
+## 🚀 Overview
 
-## 📋 Table of Contents
-* [About the Project](#-about-the-project)
-* [Key Features](#-key-features)
-* [Tech Stack & Libraries](#️-tech-stack--libraries)
-* [Project Structure](#-project-structure)
-* [Workflow Architecture](#-workflow-architecture)
-* [How to Run Locally](#-how-to-run-locally)
-* [Usage Guide](#-usage-guide)
-* [Future Scope](#-future-scope)
-* [Contributing](#-contributing)
-* [License](#-license)
-* [Author](#-author)
+The **AI Resume Analyzer** helps users understand how well their resume matches a given job description.
 
----
+The application uses AI-based analysis to evaluate resume content, identify relevant skills and keywords, and provide actionable feedback to improve the resume.
 
-## 🚀 About the Project
-Screening resumes efficiently is a major bottleneck in recruitment. This project implements a Swarm AI framework where multiple specialized AI agents collaborate dynamically (e.g., parsing agent, skill-matching agent, ATS-scoring agent, and feedback writer agent) to analyze a candidate's profile against specific job descriptions, delivering comprehensive evaluations through an interactive web interface.
+## ✨ Features
 
----
+* 📄 Upload and analyze resumes
+* 🎯 ATS-focused resume evaluation
+* 🔍 Skill and keyword analysis
+* 📝 Resume improvement suggestions
+* 🤖 AI-powered resume analysis
+* 💼 Job description-based evaluation
+* 🌐 Simple and interactive web interface
 
-## 🌟 Key Features
-* **Multi-Agent Evaluation:** Utilizes a swarm of specialized agent roles to handle deep text analysis, keyword matching, and formatting assessment.
-* **ATS Compatibility Scoring:** Instantly calculates Applicant Tracking System (ATS) scores based on targeted industry requirements.
-* **Constructive Feedback Generation:** Provides actionable suggestions for improving summary sections, technical skill lists, and project descriptions.
-* **Interactive Web Dashboard:** Clean, modern interface designed to upload documents and track real-time agent assessments.
+## 🧠 AI Workflow
 
----
+```text
+Resume + Job Description
+          ↓
+     Resume Parsing
+          ↓
+     Content Analysis
+          ↓
+ Skill & Keyword Matching
+          ↓
+    ATS Evaluation
+          ↓
+ AI-Generated Feedback
+          ↓
+ Resume Improvement Suggestions
+```
 
-## 🛠️ Tech Stack & Libraries
-* **Programming Language:** Python 🐍
-* **Web Framework:** Flask
-* **AI & Multi-Agent Frameworks:** OpenAI API / Custom Swarm Orchestration, LangChain / CrewAI concepts
-* **Data Processing:** PyPDF2 / pdfplumber, Pandas, NumPy
-* **Frontend:** HTML5, CSS3, JavaScript
-* **Development Tools:** Git, GitHub, VS Code
+## 🛠️ Tech Stack
 
----
+* **Python**
+* **Flask**
+* **OpenAI API**
+* **PyPDF2 / pdfplumber**
+* **Pandas**
+* **NumPy**
+* **HTML5**
+* **CSS3**
+* **JavaScript**
 
-## 📂 Project Structure
+## 📁 Project Structure
+
 ```text
 AI_Resume_Analyzer_Swarm/
 │
-├── templates/              
-│   └── index.html          # Main HTML user interface for resume uploads and job description inputs
-├── static/                 
-│   └── style.css           # Styling and dashboard design files
-├── app.py                  # Main Flask backend application server
-├── agents.py               # Multi-agent definitions and prompt orchestrations
-├── requirements.txt        # Project dependencies list
-└── .env                    # Environment configuration (API keys)
+├── templates/
+│   └── index.html
+│
+├── static/
+│   └── style.css
+│
+├── app.py
+├── agents.py
+├── requirements.txt
+├── .env
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Itsjanvi/AI_Resume_Analyzer_Swarm.git
+cd AI_Resume_Analyzer_Swarm
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🔑 Environment Setup
+
+Create a `.env` file and add your API key:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+**Never upload your actual API key to GitHub.**
+
+## ▶️ Run the Application
+
+Start the Flask application:
+
+```bash
+python app.py
+```
+
+Then open your browser and visit:
+
+```text
+http://127.0.0.1:5000/
+```
+
+Upload your resume, provide the job description, and analyze your resume.
+
+## 🎯 Objective
+
+The goal of this project is to demonstrate how AI and Natural Language Processing can be used to automate resume analysis and provide personalized feedback for improving job applications.
+
+## 🔮 Future Scope
+
+* Improve resume-job matching
+* Add support for multiple resume formats
+* Add more detailed ATS analysis
+* Support multiple job descriptions
+* Add resume improvement and rewriting features
+* Deploy the application online
+
+## 👩‍💻 Author
+
+**Janvi**
+
+GitHub: [Itsjanvi](https://github.com/Itsjanvi)
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
